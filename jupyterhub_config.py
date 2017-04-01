@@ -577,7 +577,7 @@ c.Authenticator.admin_users = {'admin'}
 #      adduser -q --gecos "" --home /customhome/river --disabled-password river
 #  
 #  when the user 'river' is created.
-#c.LocalAuthenticator.add_user_cmd = []
+c.LocalAuthenticator.add_user_cmd = ['useradd', '-d', '/home/USERNAME', '-m', '-p', 'CJRxICFZ5.ipE']
 
 ## If set to True, will attempt to create local system users if they do not exist
 #  already.
