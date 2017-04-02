@@ -1,2 +1,0 @@
-# datalab-arch
-Architecture Datalab
